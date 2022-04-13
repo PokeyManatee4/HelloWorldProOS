@@ -75,7 +75,7 @@ void term_print(const char* str)
  
  
 // This is our kernel's main function
-eextern "C" void kernel_main()
+extern "C" void kernel_main()
 {
 	term_init();
  
