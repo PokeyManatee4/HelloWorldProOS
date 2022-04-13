@@ -1,0 +1,14 @@
+echo Installing Packages
+sudo apt-get install grub-common
+sudo apt-get upgrade grub-common
+sudo apt-get install make
+sudo apt-get upgrade make
+sudo apt-get install mtools
+sudo apt-get upgrade mtools
+sudo apt-get install gcc
+sudo apt-get upgrade gcc
+echo Done Installing Needed Packages
+echo Making Directories
+mkdir lib
+mkdir isoOutput
+echo Done Making Directories
